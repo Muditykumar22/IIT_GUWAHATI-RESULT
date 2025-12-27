@@ -7,33 +7,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="login-container">
-        <div class="login-card">
-            <div class="logo-section">
-                <img src="guwahatilogo.png" alt="IIT Guwahati Logo" class="logo" onerror="this.onerror=null; this.src=''; this.style.display='none'; this.nextElementSibling.style.display='block';">
-                <div class="logo-placeholder" style="display:none;">
-                    <div class="logo-fallback">IITG</div>
-                    <p style="font-size: 11px; color: #999; margin-top: 5px;">Logo image required</p>
+    <div class="login-wrapper">
+        <div class="login-container">
+            <div class="login-card">
+                <div class="logo-section">
+                    <img src="guwahatilogo.png" alt="IIT Guwahati Logo" class="logo" onerror="this.onerror=null; this.src=''; this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <div class="logo-placeholder" style="display:none;">
+                        <div class="logo-fallback">IITG</div>
+                        <p style="font-size: 11px; color: #999; margin-top: 5px;">Logo image required</p>
+                    </div>
+                    <h1>IIT Guwahati</h1>
+                    <h2>M.Tech Admission Portal</h2>
                 </div>
-                <h1>IIT Guwahati</h1>
-                <h2>M.Tech Admission Portal</h2>
+                
+                <form id="loginForm" class="login-form">
+                    <div class="form-group">
+                        <label for="rollNumber">Roll Number</label>
+                        <input type="text" id="rollNumber" name="rollNumber" placeholder="Enter your roll number" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="dob">Date of Birth</label>
+                        <input type="text" id="dob" name="dob" placeholder="DD/MM/YYYY" required>
+                    </div>
+                    
+                    <div id="errorMessage" class="error-message"></div>
+                    
+                    <button type="submit" class="login-btn">Login</button>
+                </form>
             </div>
-            
-            <form id="loginForm" class="login-form">
-                <div class="form-group">
-                    <label for="rollNumber">Roll Number</label>
-                    <input type="text" id="rollNumber" name="rollNumber" placeholder="Enter your roll number" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="dob">Date of Birth</label>
-                    <input type="text" id="dob" name="dob" placeholder="DD/MM/YYYY" required>
-                </div>
-                
-                <div id="errorMessage" class="error-message"></div>
-                
-                <button type="submit" class="login-btn">Login</button>
-            </form>
         </div>
         
         <!-- About Us Section -->
