@@ -617,6 +617,112 @@ body {
     color: #333;
 }
 
+/* ==================== ABOUT US SECTION ==================== */
+.about-section {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.about-card {
+    margin-top: 20px;
+}
+
+.about-list {
+    padding-left: 25px;
+}
+
+.about-list li {
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.7;
+}
+
+.about-list li::marker {
+    color: #1976d2;
+    font-weight: 600;
+}
+
+/* About Us for Login Page */
+.about-section-login {
+    max-width: 450px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+    color: #1976d2;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #1976d2;
+}
+
+.about-card-login {
+    margin-top: 20px;
+}
+
+.about-list-login {
+    padding-left: 25px;
+}
+
+.about-list-login li {
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: #555;
+    line-height: 1.7;
+}
+
+.about-list-login li::marker {
+    color: #1976d2;
+    font-weight: 600;
+}
+
+/* ==================== CONTACT SECTION ==================== */
+.contact-section {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.contact-card {
+    margin-top: 20px;
+}
+
+.contact-details {
+    font-size: 14px;
+    line-height: 2;
+    color: #555;
+}
+
+.contact-details p {
+    margin-bottom: 10px;
+}
+
+.contact-details strong {
+    color: #333;
+    font-weight: 600;
+}
+
+.contact-details a {
+    color: #1976d2;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-details a:hover {
+    color: #1565c0;
+    text-decoration: underline;
+}
+
 /* ==================== ADMIT CARD PAGE ==================== */
 .admit-card-container {
     max-width: 900px;
@@ -901,6 +1007,20 @@ body {
     
     .bonafide-title {
         font-size: 24px;
+    }
+    
+    .about-section,
+    .contact-section {
+        padding: 20px;
+    }
+    
+    .about-list li,
+    .about-list-login li {
+        font-size: 13px;
+    }
+    
+    .contact-details {
+        font-size: 13px;
     }
     
     .profile-table {
